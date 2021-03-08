@@ -1,6 +1,0 @@
-.menuitem--active{
-    background: #faa;
-}
-li[role="menuitem"]:focus {
-    background-color: rgb(223, 134, 83);
-}
