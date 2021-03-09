@@ -2,6 +2,7 @@
   "name": "a11y-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://saurabhgarg1.github.io/a11y-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
