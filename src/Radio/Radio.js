@@ -4,17 +4,17 @@ export const Radio = () => {
       <p>Select a maintenance drone:</p>
       <div>
         <input type="radio" id="huey" name="drone" value="huey" />
-        <label for="huey">Huey</label>
+        <label htmlFor="huey">Huey</label>
       </div>
 
       <div>
         <input type="radio" id="dewey" name="drone" value="dewey" />
-        <label for="dewey">Dewey</label>
+        <label htmlFor="dewey">Dewey</label>
       </div>
 
       <div>
         <input type="radio" id="louie" name="drone" value="louie" />
-        <label for="louie">Louie</label>
+        <label htmlFor="louie">Louie</label>
       </div>
     </>
   );

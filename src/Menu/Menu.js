@@ -4,8 +4,6 @@ import MenuItem from "./MenuItem";
 
 const menuItems = ["Inbox", "Draft", "Sent Items", "Junk"];
 
-const renderLoader = () => <div className="loader"></div>;
-
 export function Menu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(0);

@@ -44,7 +44,7 @@ const Dialog = ({ onClose, domNodeFn }) => {
 
   useMemo(() => {
     nodeToRestore.current = ownerDocument(domNodeFn()).activeElement;
-  }, []);
+  }, [domNodeFn]);
 
   return ReactDOM.createPortal(
     <>
